@@ -28,7 +28,8 @@ public class CardTrick {
            c.setSuit(Card.SUITS[(int)(Math.random()*4)]);
            //Then report the result here
             System.out.println("Card is " + c.getValue() + " and Suit is " + c.getSuit());
-    }
+        }
+        System.out.println("These are your lucky cards");
     
 }
 }
