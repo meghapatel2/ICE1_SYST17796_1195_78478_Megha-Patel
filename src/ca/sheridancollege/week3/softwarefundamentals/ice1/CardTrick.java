@@ -29,19 +29,19 @@ public class CardTrick
          int a = rnd.nextInt(3);
          c.setSuit(Card.SUITS[a]);
          if (value == 1) {
-            System.out.println("Ace of " + c.getSuit());
+            System.out.println("The chosen card is Ace of " + c.getSuit());
          }
          else if (value == 11) {
-            System.out.println("Joker of " + c.getSuit());
+            System.out.println("The chosen card is Joker of " + c.getSuit());
          }
          else if (value == 12) {
-            System.out.println("Quuen of " + c.getSuit());
+            System.out.println("The chosen card is Quuen of " + c.getSuit());
          }
          else if (value == 13) {
-            System.out.println("King of " + c.getSuit());
+            System.out.println("The chosen card is King of " + c.getSuit());
          }
          else {
-            System.out.println(c.getValue() + " of " + c.getSuit());
+            System.out.println("The chosen card is" +  c.getValue() + " of " + c.getSuit());
 
          }
          //Then report the result here
