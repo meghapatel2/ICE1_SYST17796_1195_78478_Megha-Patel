@@ -32,7 +32,8 @@ public class CardTrick
          c.setValue(n1 + 1);
          c.setSuit(Card.SUITS[n2]);
 
-         System.out.print(c.getSuit() + " " + c.getValue() + "\n");
+         
+         System.out.println("Card suit is" + c.getSuit() + " and its value is " + c.getValue() + ".");
          //Then report the result here
       }
 
