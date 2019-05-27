@@ -6,6 +6,7 @@
 package ca.sheridancollege.week3.softwarefundamentals.ice1;
 
 import java.util.Random;
+import java.util.Scanner;
 
 /**
  * A class that fills a magic hand of 7 cards with random Card Objects
@@ -30,9 +31,12 @@ public class CardTrick {
            c.setSuit(c.SUITS[(int)(Math.random()*3)]);
            //Then report the result here
            System.out.println(c.getValue()+"  "+c.getSuit());
-         // Add a clone statement
            
-    }
-    
+          
+        }
+        Scanner input = new Scanner(System.in);
+          
+          int luckyCard=input.nextInt();
+           System.out.println("Your lucky card "+luckyCard);
 }
 }
