@@ -31,6 +31,7 @@ public class CardTrick
          c.setValue(n1);
          c.setSuit(Card.SUITS[n2]);
          System.out.println(c.getValue() + "  " + c.getSuit());
+         System.out.println("The values are the ones printed above.");
       }
 
    }
