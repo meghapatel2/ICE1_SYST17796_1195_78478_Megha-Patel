@@ -11,6 +11,7 @@ package ca.sheridancollege.week3.softwarefundamentals.ice1;
  * for the match to the user's card. To be used as starting code in ICE 1
  *
  * @author Megha
+ * // Syed Naufil Arshad 991480987
  */
 public class CardTrick
 {
