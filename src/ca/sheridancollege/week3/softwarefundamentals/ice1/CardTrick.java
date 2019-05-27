@@ -30,7 +30,7 @@ public class CardTrick {
            
  
         }
-    
+     System.out.println("This is your lucky card");
 }
     
 }
