@@ -34,6 +34,11 @@ public class CardTrick {
             System.out.println(c.getSuit());
            
     }
-    
+        //lucky card
+    Card c = new Card();
+    c.setValue(12);
+    c.setSuit("Diamonds");
+    System.out.println(c.getValue());
+    System.out.println(c.getSuit());
 }
 }
