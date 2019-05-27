@@ -23,7 +23,7 @@ public class CardTrick {
         {
             //first commit and push
             Card c = new Card();
-            c.setValue((int)(Math.random()*13));
+            c.setValue((int)(Math.random()*13 + 1));
             c.setSuit(Card.SUITS[(int)(Math.random()*3)]);
            //Then report the result here
             System.out.println("Card: "+ c.getValue() + " Suit: " + c.getSuit());
