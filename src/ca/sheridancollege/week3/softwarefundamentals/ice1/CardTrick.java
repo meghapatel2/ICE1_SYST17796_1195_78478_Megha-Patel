@@ -23,7 +23,9 @@ public class CardTrick {
         {
             Card c = new Card();
             //c.setValue(insert call to random number generator here)
+            c.setValue((int)(Math.random()*13 + 1));
            //c.setSuit(Card.SUITS[insert call to random number between 0-3 here])
+           c.setSuit(Card.SUITS[(int)(Math.random()*3)]);
            //Then report the result here
     }
     
