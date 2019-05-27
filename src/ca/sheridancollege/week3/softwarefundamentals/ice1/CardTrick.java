@@ -19,7 +19,7 @@ public class CardTrick {
     {
         Card[] magicHand = new Card[7];
         
-        
+        String lucky[] = new String[7];
         for (int i=0; i<magicHand.length; i++)
         {
             Card c = new Card();
@@ -30,10 +30,10 @@ public class CardTrick {
            //Then report the result here
            //Print out the card and suit 
            System.out.println("Card:"+ c.getValue() + " Suit:" + c.getSuit());
-           
+           lucky[i]="Card:"+ c.getValue() + " Suit:" + c.getSuit();
            
         }
-        System.out.println("Lucky card: "+" Card:8 Suit:Diamonds");
+        System.out.println("Lucky card: "+lucky[(int) (Math.random()* 7)]);
     
     }
 }
