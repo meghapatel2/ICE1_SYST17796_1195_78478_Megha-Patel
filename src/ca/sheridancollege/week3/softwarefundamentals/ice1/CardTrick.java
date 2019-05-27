@@ -13,6 +13,7 @@ import java.util.Random;
  * the user's card. To be used as starting code in ICE 1
  *
  * @author Megha
+ * @author David
  */
 public class CardTrick {
 
@@ -27,7 +28,6 @@ public class CardTrick {
       Card c = new Card();
       c.setValue(random.nextInt(14)); 
       c.setSuit(Card.SUITS[random.nextInt(4)]);
-      System.out.printf("Your card is: %d of %s \n", c.getValue(), c.getSuit());
     }
 
   }
