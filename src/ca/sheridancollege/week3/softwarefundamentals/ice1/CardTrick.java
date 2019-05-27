@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package ca.sheridancollege.week3.softwarefundamentals.ice1;
-
+import java.util.Scanner;
 /**
  * A class that fills a magic hand of 7 cards with random Card Objects
  * and then asks the user to pick a card and searches the array of cards
@@ -29,7 +29,11 @@ public class CardTrick
          c.setSuit(c.SUITS[(int) (Math.random() * 3)]);
          System.out.println(c.getValue() + " " + c.getSuit());
          //added printstatement to print cards
-         
+         Scanner input = new Scanner(System.in);
+         System.out.println("Choose a number between 1-7 as your lucky card ");
+         int luckyCard = input.nextInt();
+         System.out.println("your lucky card is" + luckyCard);
+
       }
 
    }
