@@ -29,6 +29,7 @@ public class CardTrick {
             c.setSuit(Card.SUITS[(int)(Math.random() * (3 + 1))]);
             System.out.println("Card #" + i + ": " + c.getValue() + " " + c.getSuit());
     }
+    System.out.println("Lucky Card: 5 Diamonds");
     
 }
 }
