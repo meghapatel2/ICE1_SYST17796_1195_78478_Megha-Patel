@@ -22,12 +22,14 @@ public class CardTrick {
         for (int i=0; i<magicHand.length; i++)
         {
             //first commit and push
-            Card c = new Card();
+            Card c = new Card(); 
             c.setValue((int)(Math.random()*13 + 1));
             c.setSuit(Card.SUITS[(int)(Math.random()*3)]);
            //Then report the result here
             System.out.println("Card: "+ c.getValue() + " Suit: " + c.getSuit());
     }
+        
+        System.out.println("Lucky Card: Ace of Hearts");
     
 }
 }
