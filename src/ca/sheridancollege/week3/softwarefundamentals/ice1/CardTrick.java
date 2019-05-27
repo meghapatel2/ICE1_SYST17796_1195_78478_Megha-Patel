@@ -30,6 +30,9 @@ public class CardTrick {
             //c.setValue(insert call to random number generator here)
            //c.setSuit(Card.SUITS[insert call to random number between 0-3 here])
            //Then report the result here
+            System.out.println(c.getValue());
+            System.out.println(c.getSuit());
+           
     }
     
 }
