@@ -32,7 +32,13 @@ public class CardTrick
          c.setSuit(Card.SUITS[n2]);
          System.out.println(c.getValue() + "  " + c.getSuit());
          System.out.println("The values are the ones printed above.");
-      }
+         System.out.println("This is your luck card: 3 Diamonds");
+         if (n1 == 3 && n2 == 1) {
+            System.out.println("Your lucky card was drawn. Congratulations!");
 
+         }
+
+
+      }
    }
 }
