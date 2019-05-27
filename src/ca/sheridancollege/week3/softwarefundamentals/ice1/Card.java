@@ -16,8 +16,9 @@ package ca.sheridancollege.week3.softwarefundamentals.ice1;
  */
 public class Card {
 
-   private String suit; //clubs, spades, diamonds, hearts
-   private int value;//1-13
+   public String suit; //clubs, spades, diamonds, hearts
+   public int value;//1-13
+   public int card;
 
    public static final String [] SUITS = {"Hearts", "Diamonds", "Spades", "Clubs"};
     /**
