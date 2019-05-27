@@ -27,6 +27,8 @@ public class CardTrick {
             System.out.printf("%d card information : %s %d%n", i+1, c.getSuit(), c.getValue());
 
         }
+        
+        System.out.println("This is my lucky card");
 
     }
 }
