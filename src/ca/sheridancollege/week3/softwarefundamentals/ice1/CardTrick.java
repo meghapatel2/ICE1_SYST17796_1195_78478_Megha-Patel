@@ -24,7 +24,7 @@ public class CardTrick {
 
             c.setValue((int) (Math.random() * 13) + 1);
             c.setSuit(Card.SUITS[(int) (Math.random() * 4)]);
-            System.out.printf("%d card information : %s %d%n", i+1, c.getSuit(), c.getValue());
+//            System.out.printf("%d card information : %s %d%n", i+1, c.getSuit(), c.getValue());
 
         }
 
