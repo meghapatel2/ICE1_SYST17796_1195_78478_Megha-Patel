@@ -27,7 +27,7 @@ public class CardTrick {
            //c.setSuit(Card.SUITS[insert call to random number between 0-3 here])
            c.setSuit(Card.SUITS[(int) (Math.random()* 3)]);
            //Then report the result here
-            System.out.println("Card:"+ c.getValue() + " Suit:" + c.getSuit());
+            
            
         }
     
