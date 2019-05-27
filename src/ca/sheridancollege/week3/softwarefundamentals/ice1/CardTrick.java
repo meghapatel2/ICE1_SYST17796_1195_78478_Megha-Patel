@@ -23,10 +23,10 @@ public class CardTrick {
         {
             Card c = new Card();
             
-            c.setValue ( (int)Math.random() *13 +1);
+            c.setValue ( (int)(Math.random() *13) +1);
             c.setSuit(Card.SUITS[(int) (Math.random() * 4)]);
            //Then report the result here
-            System.out.println("Card has :" +  c.getValue() + "Suit has :" + c.getSuit());
+            System.out.println("Card has :" +  c.getValue() + " Suit has : " + c.getSuit());
            
  
         }
