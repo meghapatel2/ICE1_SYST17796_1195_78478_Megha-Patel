@@ -28,6 +28,7 @@ public class CardTrick {
       Card c = new Card();
       c.setValue(random.nextInt(14)); 
       c.setSuit(Card.SUITS[random.nextInt(4)]);
+      System.out.printf("Your card is: %d of %s \n", c.getValue(), c.getSuit());
     }
 
   }
