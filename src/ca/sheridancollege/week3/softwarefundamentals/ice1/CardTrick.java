@@ -28,6 +28,7 @@ public class CardTrick {
             c.setValue(x + 1);
             c.setSuit(Card.SUITS[rnd.nextInt(4)]);
            
+            System.out.println("The cards in the hand are as follows");
             System.out.printf("The cards number is %d and the card suit is %s\n", c.getValue(), c.getSuit());
             magicHand[i] = c;
     }
