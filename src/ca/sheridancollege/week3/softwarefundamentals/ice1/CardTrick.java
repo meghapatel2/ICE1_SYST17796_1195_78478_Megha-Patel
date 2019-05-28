@@ -28,6 +28,7 @@ public class CardTrick
          Random rnd = new Random();
          c.setValue(rnd.nextInt(13) + 1);
          c.setSuit(Card.SUITS[rnd.nextInt(4)]);
+         magicHand[i] = c;
          //Then report the result here
          System.out.println("Card suit is " + c.getSuit() + " and its value is " + c.getValue());
       }
