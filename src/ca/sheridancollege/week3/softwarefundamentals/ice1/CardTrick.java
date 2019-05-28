@@ -29,6 +29,8 @@ public class CardTrick
          //Then report the result here
          System.out.println("Card suit is " + c.getSuit() + " and its value is " + c.getValue());
       }
-
+      Random rnd2 = new Random();
+      int magic = rnd2.nextInt(7);
+      System.out.println("\nYour lucky card is " + magicHand[magic].getSuit() + " with the value of " + magicHand[magic].getValue());
    }
 }
