@@ -15,6 +15,7 @@ import java.util.Random;
  * @author Megha
  */
 //Razan alsaddi
+//Student Number 991504489
 public class CardTrick
 {
 
