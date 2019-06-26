@@ -48,6 +48,6 @@ public class Card {
         this.value = value;
     }
    
-   
+    //******************EXAMPLE COMMENT FOR PRACTICE*********************
     
 }
